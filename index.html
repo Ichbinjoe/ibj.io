@@ -37,35 +37,32 @@ a:visited {
     <link rel="shortcut icon" type="image/x-icon" href="data:image/x-icon:,">
     </head>
     <body>
-        <p>My name is Joe Hirschfeld. I'm about to get married, so in a few
-        weeks my name will be Joseph Hirschfeld-Patrick. This is my website. I
-        used to not have anything here, but then I realized that I really
-        should have something here as the homepage of who I am. I like fast and
-        efficient computer projects that just work, and I decided my website
-        should follow the same methodology. Everyone should have somewhere to
-        tell the world who they are, so here is mine.</p>
+        <p>My name is Joe Hirschfeld. This is my website. I used to not have
+        anything here, but then I realized that I really should have something
+        here as the homepage of who I am. I like fast and efficient computer
+        projects that just work, and I decided my website should follow the
+        same methodology. Everyone should have somewhere to tell the world who
+        they are, so here is mine.</p>
 
-        <p>Here is my <a href="./resume.pdf">resume</a>. I am looking for
-        full-time employment after May 2019. I have a wide range of experience,
-        from embedded development and circuit design all the way to Kubernetes
-        cluster management and high performance computing. When I work I want
-        to make something that helps the world function better. I enjoy
-        embedded and low-level development, networking, efficient computing,
-        and complex data storage.</p>
+        <p>Here is my <a href="./resume.pdf">resume</a>. I recently took a job
+        with Facebook as a Production Engineer. I have a wide range of
+        experience, from embedded development and circuit design all the way to
+        Kubernetes cluster management and high performance computing. When I
+        work I want to make something that helps the world function better. I
+        enjoy embedded and low-level development, networking, efficient
+        computing, and complex data storage.</p>
 
         <h3>Contacting me</h3>
-        <p>If you want to get in touch with me, you can email me through joe @
-        this domain. If for some reason you want to encrypt whatever you are
-        going to send me, I use <a href="https://keybase.io/ibj">Keybase</a>. I
-        am also on <a href="https://t.me/ichbinjoe">Telegram</a>, and will
-        respond over Google Hangouts - its just my email.</p>
+        <p>If you need to get ahold of me, try these ways:</p>
+        <ul>
+            <li>Email: joe at this domain</li>
+            <li>IRC: ichbinjoe on <a href="irc://irc.freenode.net">Freenode</a>
+                and <a href="irc://irc.esper.net">Espernet</a></li>
+        </ul>
 
         <h3>Links to stuff</h3>
         <a href="https://github.com/ichbinjoe/">github.com/ichbinjoe</a> - My Github</br>
-        <a href="https://github.com/parallelblock/">github.com/parallelblock</a> - ParallelBlock LLC's Github, my development company</br>
         <a href="https://www.linkedin.com/in/ichbinjoe/">linkedin.com/in/ichbinjoe</a> - My LinkedIn page: it basically says what I say here</br>
-        <a href="https://ucrobotics.gitlab.io/">ucrobotics.gitlab.io</a> - University of Cincinnati Robotics Team - I'm the Vice President</br>
-        <a href="https://keybase.io/ibj">keybase.io/ibj</a> - My Keybase</br>
         <a href="https://github.com/ichbinjoe.keys">github.com/ichbinjoe.keys</a> - My SSH keys in case you need them for some reason</br>
 
         <h3>Places I have worked</h3>
@@ -143,10 +140,10 @@ a:visited {
         <h4>Homelab stuff</h4>
         <p>I have a bunch of servers networked up together on the same network.
         I really like my homelab, and because of it I am able to run a bunch of
-        applications locally in my house, including this website. While this is
-        generally a bad idea, its a really cool experiment in virutalization,
-        software defined networking, and just a mini-testtube of how things
-        work out on the Internet. I made a diagram of my home network below:
+        applications locally in my house. While this is generally a bad idea,
+        its a really cool experiment in virutalization, software defined
+        networking, and just a mini-testtube of how things work out on the
+        Internet. I made a diagram of my home network below:
         <div class="hc">        
         {{homelab.svg}}
         </div>
@@ -161,14 +158,17 @@ a:visited {
         the Internet, and VLAN 30 only routes to uctinc.net peers. This homelab
         has helped me learn a ton about cloud hosting, virtualization,
         networking, as well as many other aspects of modern computing.
+
+        I used to host this website on my homelab as well, but I moved it to
+        IPFS over the Cloudflare IPFS mirror becuase its a bit easier to
+        maintain for me and doesn't rely on talking to my home internet
+        connection.
         <h4>UC Robotics</h4>
         <p>I am the vice president of the UC Robotics Team. Each year, the UC
         Robotics Team competes in the International Ground Vehicle Competition
         (IGVC). In IGVC 2018, UC placed 6th in the auto-navigation portion of
         the competition.  For the 2018-2019 season, I am leading software
-        development for the robot. The <a
-            href="https://ucrobotics.gitlab.io">UC Robotics Team</a> website is
-        a great place to see more about the team during the year.
+        development for the robot.
         <h4>uctinc.net</h4>
         <p>Through my love of computers and networking, I have started a public
         Tinc mesh network. I am looking for peers! If this is something you may
@@ -181,6 +181,6 @@ a:visited {
         browser makes exactly one HTTP call to my web server, and the same
         exact file will render on any web-browser that supports SVGs! You
         can check out the code for this website <a
-            href="https://gitlab.io/ichbinjoe/ichbinjoe.gitlab.io">here</a>.</p>
+            href="https://github.com/ichbinjoe/ibj.io">here</a>.</p>
     </body>
 </html>
